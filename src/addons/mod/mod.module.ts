@@ -40,6 +40,8 @@ import { AddonModWorkshopModule } from './workshop/workshop.module';
 import { AddonModThUrlModule } from './th_url/thurl.module';
 import { AddonModQaaModule } from './qaa/qaa.module';
 import { AddonModTHPageModule } from './thpage/page.module';
+import { AddonModThrdAssignModule } from './thrdassign/thrdassign.module';
+import { AddonModThGlossaryModule } from './thglossary/thglossary.module';
 
 @NgModule({
     imports: [
@@ -68,7 +70,9 @@ import { AddonModTHPageModule } from './thpage/page.module';
         AddonModWorkshopModule,
         AddonModThUrlModule,
         AddonModQaaModule,
-        AddonModTHPageModule
+        AddonModTHPageModule,
+        AddonModThrdAssignModule,
+        AddonModThGlossaryModule,
     ],
 })
 export class AddonModModule {}
